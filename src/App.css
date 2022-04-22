@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: coral;
+  background: #1d3f6e;
   height: 100vh;
   width: 100vw;
 }
@@ -21,6 +21,8 @@
   -webkit-backdrop-filter:blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255,255,255,0.18);
+
+  font-size: 20px;
 }
 
 .app_image {
@@ -28,4 +30,18 @@
   max-height: 500px;
   width: auto;
   border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location_input {
+  font-size: 20px;
 }
